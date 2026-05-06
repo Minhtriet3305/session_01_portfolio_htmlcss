@@ -1,0 +1,13 @@
+h2{
+    font-family: var(--font-main);
+    color: var(--color-dark);
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 20px;
+}
+
