@@ -1,0 +1,36 @@
+.hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    width: 100%; 
+    background-color: var(--color-primary);
+}
+
+.hero h1{
+    font-family: var(--font-main);
+    font-size: 80px;
+    color: var(--color-light);
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-family: var(--font-main);
+    font-size: 20px;
+    color: var(--color-light);
+    margin-bottom: 30px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    font-family: var(--font-main);
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
