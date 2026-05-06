@@ -5,9 +5,51 @@ h2{
     font-weight: bold;
 }
 
-.skills-grid{
+
+
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 20px 0;
+
 }
 
+.skill-item{
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: var(--color-primary); /* Màu tím/xanh chủ đạo */
+    border-radius: 10px;
+}
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+    left: 10px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--color-dark);
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 18px;
+}
